@@ -1,33 +1,23 @@
 .container{
-margin: 0 auto;
+    margin: 30px;
 }
 .box{
-    width: 200px;
-    height: 100px;
-    padding: 8px;
-    display: flex;
+    background-color: brown;
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
-    gap: 3px;
-    background-color: aquamarine;
+    display: flex;
+    padding: 15px;
+    width: 400px;
+    gap: 10px;
+    color: white;
 }
-#days{
+.style{
+    color: black;
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
     width: calc(100% / 4);
-    height: 80px;
-    background-color: brown;
-}
-#hours {
-    width: calc(100% / 4);
-    height: 80px;
-    background-color: brown;
-}
-#minutes {
-    width: calc(100% / 4);
-    height: 80px;
-    background-color: brown;
-}
-#seconds {
-    width: calc(100% / 4);
-    height: 80px;
-    background-color: brown;
+    background-color: aqua;
 }
