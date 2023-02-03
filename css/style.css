@@ -1,0 +1,33 @@
+.container{
+margin: 0 auto;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    background-color: aquamarine;
+}
+#days{
+    width: calc(100% / 4);
+    height: 80px;
+    background-color: brown;
+}
+#hours {
+    width: calc(100% / 4);
+    height: 80px;
+    background-color: brown;
+}
+#minutes {
+    width: calc(100% / 4);
+    height: 80px;
+    background-color: brown;
+}
+#seconds {
+    width: calc(100% / 4);
+    height: 80px;
+    background-color: brown;
+}
